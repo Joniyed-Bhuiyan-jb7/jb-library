@@ -1,0 +1,1 @@
+package io.swagger.repository;import io.swagger.model.LoginInfo;import org.springframework.data.repository.CrudRepository;import org.springframework.stereotype.Repository;@Repositorypublic interface LoginInfoRepository extends CrudRepository<LoginInfo,String> {}

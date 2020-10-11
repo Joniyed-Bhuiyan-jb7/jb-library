@@ -1,0 +1,1 @@
+package io.swagger.repository;import io.swagger.model.Member;import org.springframework.data.repository.CrudRepository;import org.springframework.stereotype.Repository;@Repositorypublic interface MemberApiRepository extends CrudRepository<Member,String> {    Iterable<Member> findByName(String username);}
